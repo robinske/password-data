@@ -1,5 +1,9 @@
 # Password Data
-CSV files containing password data using in my Analyzing Pwned Passwords with Apache Spark talk and blog post.
+CSV files containing password data used by the following:
+
+Tutorial: https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apache-spark.html
+Talk: https://www.youtube.com/watch?v=3HjjxP0-uFE
+
 
 ## 500 Million Pwned Passwords 😱
 
