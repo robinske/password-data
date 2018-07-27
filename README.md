@@ -5,10 +5,18 @@ Tutorial: https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apa
 
 Talk: https://www.youtube.com/watch?v=3HjjxP0-uFE
 
+Original data from [havibeenpwned](https://haveibeenpwned.com/Passwords).
+
 
 ## 500 Million Pwned Passwords 😱
 
-The below is detailed information about how I got the data in this format. It's really boring. The [tutorial](https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apache-spark.html) is far more interesting. Read on if you're curious. 
+The below is detailed information about how I got the data in this format. 
+
+It's really boring. 
+
+The [tutorial](https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apache-spark.html) is far more interesting. 
+
+Read on if you're curious. 
 
 The raw data is available from Troy Hunt via torrent or file download here: https://haveibeenpwned.com/Passwords. Grab the Version 2 File that's ordered by prevalence and download it to your computer, unzipping it with your favorite program. You should end up with a single `.txt` file that's about 29G. 
 
