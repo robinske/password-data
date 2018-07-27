@@ -43,6 +43,9 @@ for file in $(ls); do mv "$file" "pwned-passwords-$file.txt"; done
 ```
 
 ## Install and Configure Zeppelin
+
+*You can also use Docker - [that way is detailed here](https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apache-spark.html#h.h2zqa8rvim79)*
+
 We'll be using Apache Zeppelin to explore the data. Zeppelin is an open source project that allows you to create and run Spark applications from a local web application notebook. It's similar to Jupyter notebooks if you've worked with those in the past. For the purposes of getting familiar with Spark, we're only going to be looking at local data in this tutorial.
 
 Follow along with the Zeppelin installation instructions and start up the server by typing `zeppelin-daemon.sh start` in your terminal. Zeppelin runs on port 8080, so navigate to http://localhost:8080 and you'll see the Zeppelin interface.
