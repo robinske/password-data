@@ -137,3 +137,8 @@ val passwords = spark
     .option("inferSchema", "true")
     .csv("./csv-passwords/*")
 ```
+
+## Exploring the data
+
+Check out the full tutorial for examples on how and what you can explore:
+https://www.twilio.com/blog/2018/06/analyzing-pwned-passwords-with-apache-spark.html
